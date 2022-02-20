@@ -33,6 +33,8 @@ select Gender, count(Gender) as number_of_passengers from PASSENGER where Distan
 
 select min(price) from PRICE where Bus_Type="Sleeper";
 
+select Passenger_name from PASSENGER where Passenger_name Like 'S%';
+
 select ps.Passenger_name,ps.Boarding_City,ps.Destination_City,bus.Bus_Type,bus.Price from PASSENGER  ps inner join PRICE  bus on bus.Distance = ps.Distance ;
 
 select pa.Passenger_name ,ps.Price from PASSENGER pa inner join PRICE ps where pa. Bus_Type = ps.Bus_Type 
@@ -40,6 +42,8 @@ and pa.Bus_Type='Sitting' and ps.Distance=1000;
 
 Select p.Passenger_name , p.Boarding_City , p.Destination_City , pr.Bus_Type , pr.price from PASSENGER p
 inner join PRICE pr where pr.Distance=p.Distance and Passenger_name='Pallavi' and p.Distance=pr.Distance;
+
+select distinct Distance from PASSENGER order by Distance desc;
 
 select Passenger_name,Distance*100/(select sum(Distance) from PASSENGER ) as '% of distance' from PASSENGER;
 
