@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="add-reads" value="java.base=java.rmi:java.base=jdk.management.jfr:java.base=jdk.jdi:java.base=jdk.charsets:java.base=java.xml:java.base=jdk.xml.dom:java.base=java.datatransfer:java.base=jdk.jstatd:java.base=jdk.httpserver:java.base=jdk.jcmd:java.base=java.desktop:java.base=java.se:java.base=java.security.sasl:java.base=jdk.zipfs:java.base=jdk.crypto.ec:java.base=jdk.javadoc:java.base=jdk.management.agent:java.base=jdk.jshell:java.base=jdk.editpad:java.base=java.sql.rowset:java.base=jdk.jsobject:java.base=jdk.sctp:java.base=java.smartcardio:java.base=jdk.jlink:java.base=jdk.unsupported:java.base=java.security.jgss:java.base=java.compiler:java.base=jdk.nio.mapmode:java.base=jdk.dynalink:java.base=jdk.unsupported.desktop:java.base=jdk.accessibility:java.base=jdk.security.jgss:java.base=java.sql:java.base=jdk.hotspot.agent:java.base=java.logging:java.base=java.transaction.xa:java.base=java.xml.crypto:java.base=jdk.jfr:java.base=jdk.internal.vm.ci:java.base=jdk.crypto.cryptoki:java.base=jdk.net:java.base=jdk.random:java.base=java.naming:java.base=jdk.internal.ed:java.base=java.prefs:java.base=java.net.http:java.base=jdk.compiler:java.base=jdk.internal.opt:java.base=jdk.naming.rmi:java.base=jdk.jconsole:java.base=jdk.attach:java.base=jdk.crypto.mscapi:java.base=jdk.internal.le:java.base=java.management:java.base=jdk.jdwp.agent:java.base=jdk.internal.jvmstat:java.base=java.instrument:java.base=jdk.internal.vm.compiler:java.base=jdk.internal.vm.compiler.management:java.base=jdk.management:java.base=jdk.security.auth:java.base=java.scripting:java.base=jdk.jdeps:java.base=jdk.jartool:java.base=java.management.rmi:java.base=jdk.jpackage:java.base=jdk.naming.dns:java.base=jdk.localedata"/>
+			<attribute name="limit-modules" value="java.se,jdk.accessibility,jdk.dynalink,jdk.httpserver,jdk.jartool,jdk.javadoc,jdk.jconsole,jdk.jshell,jdk.jsobject,jdk.management.jfr,jdk.net,jdk.nio.mapmode,jdk.sctp,jdk.security.auth,jdk.security.jgss,jdk.unsupported,jdk.unsupported.desktop,jdk.xml.dom,jdk.charsets,jdk.jstatd,jdk.jcmd,jdk.zipfs,jdk.editpad,java.smartcardio,jdk.hotspot.agent,jdk.crypto.cryptoki,jdk.random,jdk.naming.rmi,jdk.crypto.mscapi,jdk.internal.vm.compiler,jdk.internal.vm.compiler.management,jdk.jpackage,jdk.naming.dns,jdk.localedata"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/gl/lib/classmate-1.3.4.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/hibernate-validator-6.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/hibernate-validator-annotation-processor-6.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/hibernate-validator-cdi-6.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/jakarta.el-3.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/jakarta.persistence-api-2.2.3.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/jakarta.validation-api-2.0.2.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/javax.annotation-api-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/javax.servlet.jsp.jstl-1.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/javax.servlet.jsp.jstl-api-1.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/jboss-logging-3.3.2.Final.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/joda-time-2.9.7.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/paranamer-2.8.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-aop-5.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-aop-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-aop-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-aspects-5.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-aspects-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-aspects-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-beans-5.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-beans-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-beans-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-context-5.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-context-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-context-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-context-indexer-5.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-context-indexer-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-context-indexer-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-context-support-5.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-context-support-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-context-support-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-core-5.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-core-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-core-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-expression-5.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-expression-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-expression-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-instrument-5.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-instrument-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-instrument-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-jcl-5.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-jcl-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-jcl-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-jdbc-5.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-jdbc-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-jdbc-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-jms-5.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-jms-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-jms-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-messaging-5.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-messaging-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-messaging-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-orm-5.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-orm-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-orm-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-oxm-5.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-oxm-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-oxm-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-test-5.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-test-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-test-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-tx-5.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-tx-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-tx-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-web-5.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-web-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-web-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-webflux-5.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-webflux-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-webflux-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-webmvc-5.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-webmvc-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-webmvc-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-websocket-5.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-websocket-5.0.2.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/gl/lib/spring-websocket-5.0.2.RELEASE-sources.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
