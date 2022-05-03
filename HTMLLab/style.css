@@ -1,0 +1,87 @@
+.sec{
+    background-color: whitesmoke;
+    position:absolute;
+    top:10%;
+    left:40%;
+    padding:5px;
+}
+
+.sec article{
+    display: inline-block;
+}
+
+p{
+    padding-left:20px;
+}
+
+div{
+    width:40px;
+    height:300px;
+    margin:20px;
+    background-color:rgb(202,192,198);
+}
+
+#bar1{
+    width:100%;
+    height:70%;
+    background-color: white;
+    animation-name: bar1Ani;
+    animation-duration:2s ;
+    animation-iteration-count: 1;
+}
+@keyframes bar1Ani{
+    0%{
+        height:100%;
+        background-color:white;
+
+    }
+    100%{
+        height:70%;
+        background-color: white;
+        
+    }
+}
+
+#bar2{
+    width:100%;
+    height:50%;
+    background-color: white;
+    animation-name: bar2Ani;
+    animation-duration:2s ;
+    animation-iteration-count: 1;
+    
+}
+@keyframes bar2Ani{
+    0%{
+        height:100%;
+        background-color:white;
+
+    }
+    100%{
+        height:50%;
+        background-color:white;
+        
+    }
+}
+
+#bar3{
+    width:100%;
+    height:20%;
+    background-color: white;
+    animation-name: bar3Ani;
+    animation-duration:2s ;
+    animation-iteration-count: 1;
+    
+}
+@keyframes bar3Ani{
+    0%{
+        height:100%;
+        background-color:white;
+
+    }
+    100%{
+        height:20%;
+        background-color:white;
+        
+    }
+}
