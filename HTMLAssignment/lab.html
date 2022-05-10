@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lab</title>
+    </head>
+    <link rel="stylesheet" href="lab.css">
+    <body>
+        <header>Pharmacy</header>
+        
+             <form action="#" method="post">
+                    <div class="lab">
+                        <div class="div-form">
+                            <h2>Lab Test Form</h2>
+                            <section>
+                                <h3>1. Your Contact Details</h3>
+                                <table>
+                                    <tr>
+                                        <td><input type="text" title="name" required placeholder="Full Name"></td>
+                                        <td><input type="number" placeholder="Patient Id (if exists)"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="number" min="6000000000" max="9999999999" placeholder="Contact No."
+                                                required></td>
+                                        <td><input type="email" required placeholder="Email ID"></td>
+                                    </tr>
+                                </table>
+                            </section>
+                            <section>
+                                <h3>2. Address</h3>
+                                <table>
+                                    <tr>
+                                        <td><input type="text" required placeholder="H.No."></td>
+                                        <td><input type="text" required placeholder="Street"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="text" required placeholder="Area"></td>
+                                    </tr>
+                                </table>
+                                <p>District</p>
+                                <select name="District" id="district" required>
+                                    <option value="">Choose</option>
+                                    <option value="Ernakulam">Ernakulam</option>
+                                    <option value="Thiruvanthapuram">Thiruvanthapuram</option>
+                                    <option value="Alapuzha">Alapuzha</option>
+                                </select>
+                            </section>
+                            <section>
+                                <h3>3. Choose the Test Type</h3>
+                                <p>Check atleast one box without fail</p>
+                                <input type="checkbox" id="c1" name="option1" value="CBC">
+                                <label for="c1">CBC</label>
+                                <br>
+                                <input type="checkbox" id="c2" name="option2" value="Complete Urine">
+                                <label for="c2">Complete Urine</label>
+                                <br>
+                                <input type="checkbox" id="c3" name="option3" value="Lipid Profile">
+                                <label for="c3">Lipid Profile</label>
+                                <br>
+                                <input type="checkbox" id="c4" name="option4" value="Thyroid Stimulating Harmone (TSH)">
+                                <label for="c3">Thyroid Stimulating Harmone (TSH)</label>
+                            </section>
+                            <section>
+                                <h3>4. Do you want a hardcopy of the report?</h3>
+                                <input type="radio" id="c5" name="option" value="True" required>
+                                <label for="c5">Yes</label>
+                                <br>
+                                <input type="radio" id="c6" name="option" value="False">
+                                <label for="c6">No</label>
+                            </section>
+                            <section>
+                                <h3>5. Select Date and Time</h3>
+                                <input type="datetime-local" value="datetime-local" required>
+                            </section>
+                        </div>
+                        <div class="image">
+                            <img src="Images/Lab-Test/lab-test.jpg"  />
+                        </div>
+                    </div>
+                    <div class="div-button">
+                        <button class="bt-button" id="reset">Reset</button>
+                        <button class="bt-button" id="submit">Submit</button>
+                    </div>
+                </form>
+                <footer>@Copyright. Only for demonstration purposes.</footer>
+            </body>
+
+</html>

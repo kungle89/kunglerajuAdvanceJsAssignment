@@ -1,0 +1,96 @@
+body{
+    background-color: honeydew;
+    height: 100%;
+}
+header{
+    font-weight:bold;
+    font-size: 45px;
+    padding:10px;
+    text-align: center;
+    background-color:pink;
+    padding-top: 20px;
+    width: 100%;
+    bottom: 0;
+   
+    }
+
+    footer{
+    font-weight:bold;
+    font-style:italic;
+    font-size: 30px;
+    padding:20px;
+    text-align: center;
+    background-color:pink;
+    color: black;
+    width: 100%;
+    bottom: 0;
+    padding-top: 20px;
+    
+    
+    }
+
+    .strike {
+        text-decoration: line-through;
+    }
+    
+
+.lab {
+    display: inline-block;
+    overflow: auto;
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+    border: inset;
+}
+
+.div-form {
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    color: rgb(6, 17, 17);
+    width: 40%;
+    height: 60%;
+    margin: 10px;
+}
+
+.div-form section {
+    margin: 10px;
+}
+
+.div-form input,
+select {
+    margin: 5px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+.image {
+    display: inline-block;
+    position: absolute;
+    height: 60%;
+    width: 40%;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.bt-button {
+    color: whitesmoke;
+    background-color: black;
+    border-style: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    top: 0%;
+    margin: 0%;
+}
+
+.div-button {
+    margin-left: 25%
+}
